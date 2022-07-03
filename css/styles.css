@@ -1,8 +1,19 @@
+:root {
+  /* fonts */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  /* text colors */
+
+  /* bg colors */
+
+  /* others */
+}
+
+
 body {
-  font-family: Roboto, sans-serif;
-  line-height: ;
-  background-color: #ffffff;
-  color: #212121;
+  --main-font: serif;
+  font-family: var(--main-font) 
+  color #212121;
 }
 
 .ul {
@@ -17,14 +28,16 @@ body {
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
+  text-decoration: none;
 }
 
 .logo-accent {
   color: #212121;
+  text-decoration: none;
 }
 
 .list {
-    list-style: none
+  list-style: none;
 }
 /* Цвет основого текста #212121  */
 
