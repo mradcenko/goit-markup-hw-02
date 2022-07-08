@@ -92,28 +92,29 @@ body {
   color: var(--accent-txt-cl);
 }
 
-.contacts-link.link {
+.contacts-address {
   font-style: normal;
+}
+.contacts-link.link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.17;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--contacts-txt-cl);
 }
 
 /* tel. */
 .contacts-link {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 /* @mail */
 .contacts-link-current {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -145,9 +146,14 @@ body {
   color: var(--main-text-cl);
 }
 
+.section-subtitle.accent {
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 
 .section-subtitle.link {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
@@ -230,7 +236,7 @@ body {
 }
 
 .logo-link.link {
-  font-family: Oleo Script;
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
